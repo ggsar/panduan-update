@@ -1,0 +1,54 @@
+site_name: Panduan LMS
+nav:
+  - Home:
+    - ./index.md
+  - Dosen:
+    - ./dosen/d_home.md
+    - ./dosen/d_syaratsistem.md
+    - ./dosen/d_login.md
+    - ./dosen/d_lupapw.md
+    - ./dosen/d_dashboard.md
+    - ./dosen/d_pengaturanprofil.md
+    - ./dosen/d_course.md
+    - ./dosen/d_aktres.md
+    - ./dosen/d_tugas.md
+    - ./dosen/d_forum.md
+    - ./dosen/d_chat.md
+    - ./dosen/d_quiz.md
+    - ./dosen/d_file.md
+    - ./dosen/d_bbb.md
+    - ./dosen/d_folder.md
+    - ./dosen/d_import.md
+  - Mahasiswa:
+    - ./mhs/m_home.md
+    - ./mhs/m_syaratsistem.md
+    - ./mhs/m_login.md
+    - ./mhs/m_lupapw.md
+    - ./mhs/m_dashboard.md
+    - ./mhs/m_pengaturanprofil.md
+    - ./mhs/m_course.md
+    - ./mhs/m_forum.md
+    - ./mhs/m_chat.md
+    - ./mhs/m_bbb.md
+  - Admin:
+    - ./admin/a_home.md
+    - ./admin/a_syaratsistem.md
+    - ./admin/a_login.md
+    - ./admin/a_lupapw.md
+    - ./admin/a_dashboard.md
+    - ./admin/a_pengaturanprofil.md
+    - ./admin/a_course.md
+    - ./admin/a_folder.md
+
+theme:
+  name: material
+  language: id
+  features:
+    - navigation.tabs
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - attr_list
+  - pymdownx.details
